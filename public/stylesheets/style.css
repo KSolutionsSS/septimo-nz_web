@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'DK Pisang';
+    src: url(../fonts/DK%20Pisang.otf);
+}
+
+@font-face {
+font-family: 'DK Pisang 2';
+src: url(../fonts/DK%20Pisang%202.otf);
+}
+
+
 body {
     padding-top: 70px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -17,6 +28,7 @@ h1 {
 
 section {
     height: 550px;
+    font-family: 'DK Pisang 2', serif;
 }
 
 section h1, section h2 {

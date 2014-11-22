@@ -4,10 +4,9 @@
 }
 
 @font-face {
-font-family: 'DK Pisang 2';
-src: url(../fonts/DK%20Pisang%202.otf);
+    font-family: 'DK Pisang 2';
+    src: url(../fonts/DK%20Pisang%202.otf);
 }
-
 
 body {
     padding-top: 70px;

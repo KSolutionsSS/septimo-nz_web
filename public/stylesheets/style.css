@@ -46,13 +46,13 @@ h1 {
     width: 139px;
 }
 
-section {
+section:not(.snz-contact) {
     height: 450px;
-    font-family: 'DK Pisang', serif;
 }
 
 section h1, section h2 {
     text-align: center;
+    font-family: 'DK Pisang', serif;
 }
 
 section h1 {
@@ -64,6 +64,11 @@ section h2 {
     margin-top: 0;
     padding-top: 200px;
     text-transform: uppercase;
+}
+
+.snz-section-subtitle {
+    font-weight: bold;
+    font-size: larger;
 }
 
 section.snz-landing {
@@ -100,7 +105,14 @@ section.snz-night {
 }
 
 section.snz-contact {
-    background-color: #ffff00;
+    background-color: #EEFF54;
+    padding: 20px 0 54px 0;
+}
+
+section.snz-contact form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 section.snz-footer {

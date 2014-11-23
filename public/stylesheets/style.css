@@ -47,7 +47,7 @@ h1 {
 }
 
 section {
-    height: 550px;
+    height: 450px;
     font-family: 'DK Pisang', serif;
 }
 
@@ -88,15 +88,15 @@ section.snz-landing img {
 }
 
 section.snz-day {
-    background-color: #c3325f;
+    background-color: #4FE751;
 }
 
 section.snz-afternoon {
-    background-color: #449d44;
+    background-color: #FF9731;
 }
 
 section.snz-night {
-    background-color: #e38d13;
+    background-color: #1D92DA;
 }
 
 section.snz-contact {

@@ -104,3 +104,7 @@ section.snz-footer {
 section.snz-footer > .snz-by {
     font-size: smaller;
 }
+
+.snz-marca {
+    text-transform: uppercase;
+}

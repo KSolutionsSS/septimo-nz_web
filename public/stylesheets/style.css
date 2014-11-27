@@ -39,11 +39,14 @@ h1 {
 }
 
 .snz-logo {
-    width: 150px;
+    width: 120px;
+    margin-top: 10px;
 }
 
 .snz-logo-animal {
-    width: 139px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 section:not(.snz-contact) {

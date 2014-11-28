@@ -10,7 +10,7 @@
 
 body {
     padding-top: 70px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 14px sans-serif;
 }
 
 a {
@@ -110,12 +110,16 @@ section.snz-night {
 section.snz-contact {
     background-color: #EEFF54;
     padding: 20px 0 54px 0;
+    text-align: center;
 }
 
-section.snz-contact form {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+section.snz-contact p{
+    font-weight: bold;
+}
+
+section.snz-contact .snz-iframe-wrapper {
+    text-align: center;
+    width: 100%;
 }
 
 section.snz-footer {

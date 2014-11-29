@@ -13,6 +13,10 @@ body {
     font: 14px sans-serif;
 }
 
+.container-fluid > .row > div {
+    padding: 0;
+}
+
 a {
     color: #00B7FF;
 }
@@ -61,12 +65,14 @@ section h1, section h2 {
 section h1 {
     font-weight: bold;
     margin-top: -20px;
+    font-size: 70px;
 }
 
 section h2 {
     margin-top: 0;
-    padding-top: 200px;
+    padding-top: 110px;
     text-transform: uppercase;
+    font-size: 100px;
 }
 
 .snz-section-subtitle {
@@ -113,7 +119,7 @@ section.snz-contact {
     text-align: center;
 }
 
-section.snz-contact p{
+section.snz-contact p {
     font-weight: bold;
 }
 
@@ -135,6 +141,34 @@ section.snz-footer > .snz-by {
     font-size: smaller;
 }
 
-.snz-marca {
+.snz-brand {
     text-transform: uppercase;
+}
+
+.snz-section-content {
+    margin-top: 210px;
+}
+
+.snz-section-content p {
+    font-weight: bold;
+}
+
+.snz-section-content .btn {
+    margin-top: 15px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    font-size: large;
+}
+
+/****************************************/
+/* Bootstrap overrides                  */
+/****************************************/
+
+.btn.btn-primary {
+    background-image: none;
+    background-color: black;
+    border-radius: 0;
+    padding-left: 25px;
+    padding-right: 25px;
 }

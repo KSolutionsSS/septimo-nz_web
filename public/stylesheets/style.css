@@ -121,8 +121,12 @@ section.snz-night {
 
 section.snz-divider {
     background-color: black;
-    padding: 35px 0;
+    padding: 25px 0;
     text-align: center;
+}
+
+section.snz-divider img {
+    width: 50px;
 }
 
 section.snz-contact {
@@ -210,8 +214,7 @@ nav ul li a:hover, nav ul li a:focus, .snz-social li a:hover, .snz-social li a:f
 /****************************************/
 
 .btn.btn-primary {
-    background-image: none;
-    background-color: black;
+    background: black none;
     border-radius: 0;
     padding-left: 25px;
     padding-right: 25px;

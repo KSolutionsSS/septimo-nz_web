@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'DK Pisang 2';
-    src: url(../fonts/DK%20Pisang%202.otf);
+    font-family: 'Oswald';
+    src: url(../fonts/Oswald/Oswald-Bold.ttf);
 }
 
 body {
@@ -164,6 +164,39 @@ section.snz-footer > .snz-by {
 
     text-transform: uppercase;
     font-size: large;
+}
+
+.snz-social {
+    position: fixed;
+    top: 40%;
+}
+
+.snz-social li:not(:first-child) {
+    margin-top: 25px;
+}
+
+.snz-social li, .snz-social li a {
+    width: 75px;
+    height: 75px;
+}
+
+.snz-social li {
+    background-color: black;
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.snz-social li a {
+    color: white;
+    display: block;
+    padding-right: 10px;
+}
+
+.snz-social li a:hover, .snz-social li a:focus {
+    text-decoration: none;
 }
 
 /****************************************/

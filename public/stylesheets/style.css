@@ -53,7 +53,7 @@ h1 {
     margin-left: 10px;
 }
 
-section:not(.snz-contact):not(.snz-divider) {
+section:not(.snz-contact):not(.snz-divider):not(.snz-footer) {
     min-height: 450px;
 }
 
@@ -136,7 +136,6 @@ section.snz-contact .snz-iframe-wrapper {
 
 section.snz-footer {
     background-color: #000000;
-    height: auto;
     color: #ffffff;
     font-family: sans-serif;
     text-align: center;

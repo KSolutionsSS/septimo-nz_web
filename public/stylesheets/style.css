@@ -54,7 +54,7 @@ h1 {
 }
 
 section:not(.snz-contact) {
-    height: 450px;
+    min-height: 450px;
 }
 
 section h1, section h2 {

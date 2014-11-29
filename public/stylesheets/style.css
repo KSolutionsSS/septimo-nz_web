@@ -215,6 +215,10 @@ nav ul li a:hover, nav ul li a:focus, .snz-social li a:hover, .snz-social li a:f
 /* Bootstrap overrides                  */
 /****************************************/
 
+.navbar {
+    background: black;
+}
+
 .btn.btn-primary {
     background: black none;
     border-radius: 0;

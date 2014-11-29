@@ -5,7 +5,12 @@
 
 @font-face {
     font-family: 'Oswald';
-    src: url(../fonts/Oswald/Oswald-Bold.ttf);
+    src: url(../fonts/Oswald/Oswald-Bold.ttf), url(../fonts/Oswald/Oswald-Light.ttf), url(../fonts/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url(../fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf), url(../fonts/Open_Sans_Condensed/OpenSans-CondLightItalic.ttf), url(../fonts/Open_Sans_Condensed/OpenSans-CondBold.ttf);
 }
 
 body {
@@ -28,9 +33,10 @@ nav {
 
 nav ul {
     text-transform: uppercase;
-    font-family: 'DK Pisang', serif;
+    font-family: 'Open Sans Condensed', serif;
     font-size: x-large;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 nav ul li {
@@ -49,7 +55,7 @@ h1 {
 
 .snz-logo-animal {
     width: 30px;
-    margin-top: 20px;
+    margin-top: 18px;
     margin-left: 10px;
 }
 

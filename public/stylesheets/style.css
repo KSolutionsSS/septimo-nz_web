@@ -137,6 +137,8 @@ section.snz-contact {
 
 section.snz-contact p {
     font-weight: bold;
+    font-family: 'DK Pisang', sans-serif;
+    font-size: large;
 }
 
 section.snz-contact .snz-iframe-wrapper {

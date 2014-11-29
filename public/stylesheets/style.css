@@ -53,7 +53,7 @@ h1 {
     margin-left: 10px;
 }
 
-section:not(.snz-contact) {
+section:not(.snz-contact):not(.snz-divider) {
     min-height: 450px;
 }
 
@@ -111,6 +111,12 @@ section.snz-afternoon {
 
 section.snz-night {
     background-color: #1D92DA;
+}
+
+section.snz-divider {
+    background-color: black;
+    padding: 35px 0;
+    text-align: center;
 }
 
 section.snz-contact {

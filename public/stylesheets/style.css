@@ -108,15 +108,15 @@ section.snz-landing img {
 }
 
 section.snz-day {
-    background-color: #4FE751;
+    background: #ffffff url("../images/section-day.png");
 }
 
 section.snz-afternoon {
-    background-color: #FF9731;
+    background: #ffaf68 url("../images/section-afternoon.png");
 }
 
 section.snz-night {
-    background-color: #1D92DA;
+    background: #5bb5c3 url("../images/section-night.png");
 }
 
 section.snz-divider {
